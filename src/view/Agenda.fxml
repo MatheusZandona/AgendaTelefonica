@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -25,6 +27,11 @@
             <Label text="Id: " />
             <Label text="Nome: " GridPane.rowIndex="1" />
             <Label text="Telefone: " GridPane.rowIndex="2" />
+            <TextField prefHeight="25.0" prefWidth="69.0" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets right="270.0" />
+               </GridPane.margin>
+            </TextField>
          </children>
       </GridPane>
    </children>
