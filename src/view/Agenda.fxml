@@ -31,33 +31,33 @@
             <Label text="Id: " />
             <Label text="Nome: " GridPane.rowIndex="1" />
             <Label text="Telefone: " GridPane.rowIndex="2" />
-            <TextField prefHeight="25.0" prefWidth="69.0" GridPane.columnIndex="1">
+            <TextField fx:id="txfId" prefHeight="25.0" prefWidth="69.0" GridPane.columnIndex="1">
                <GridPane.margin>
                   <Insets right="270.0" />
                </GridPane.margin>
             </TextField>
-            <TextField GridPane.columnIndex="1" GridPane.columnSpan="2147483647" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="txfNome" GridPane.columnIndex="1" GridPane.columnSpan="2147483647" GridPane.rowIndex="1" />
+            <TextField fx:id="txfTelefone" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <HBox GridPane.columnIndex="2" GridPane.rowIndex="2">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Salvar">
+                  <Button fx:id="btnSalvar" mnemonicParsing="false" onAction="#salvar" prefHeight="25.0" prefWidth="85.0" text="Salvar">
                      <HBox.margin>
                         <Insets bottom="10.0" left="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Excluir">
+                  <Button fx:id="btnExcluir" mnemonicParsing="false" onAction="#excluir" prefHeight="25.0" prefWidth="78.0" text="Excluir">
                      <HBox.margin>
                         <Insets bottom="10.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="Limpar">
+                  <Button fx:id="btnLimpar" mnemonicParsing="false" onAction="#limpar" prefHeight="25.0" prefWidth="73.0" text="Limpar">
                      <HBox.margin>
                         <Insets bottom="10.0" right="5.0" top="10.0" />
                      </HBox.margin>
                   </Button>
                </children>
             </HBox>
-            <TableView prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="3">
+            <TableView fx:id="tableView" prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="3">
               <columns>
                 <TableColumn prefWidth="75.0" text="Id" />
                 <TableColumn prefWidth="364.0" text="Nome" />
