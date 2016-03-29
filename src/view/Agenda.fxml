@@ -32,6 +32,7 @@
                   <Insets right="270.0" />
                </GridPane.margin>
             </TextField>
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
          </children>
       </GridPane>
    </children>
