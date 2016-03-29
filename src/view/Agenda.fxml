@@ -24,6 +24,7 @@
          <children>
             <Label text="Id: " />
             <Label text="Nome: " GridPane.rowIndex="1" />
+            <Label text="Telefone: " GridPane.rowIndex="2" />
          </children>
       </GridPane>
    </children>
