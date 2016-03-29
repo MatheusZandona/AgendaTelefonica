@@ -40,6 +40,11 @@
                   <Insets left="5.0" />
                </GridPane.margin>
             </Button>
+            <Button mnemonicParsing="false" text="Excluir" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="60.0" />
+               </GridPane.margin>
+            </Button>
          </children>
       </GridPane>
    </children>
